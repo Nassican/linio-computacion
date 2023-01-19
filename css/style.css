@@ -47,12 +47,8 @@ body {
   padding: 5px 12px;
 }
 
-.menu-icon img:hover {
-  filter: invert(77%) sepia(65%) saturate(5691%) hue-rotate(357deg)
-  brightness(98%) contrast(106%);
-}
 
-.icon-menu li a-menu {
+.icon-menu li {
   color: rgb(0, 0, 0);
   font-family: Arial;
   padding: 0px 0px;
@@ -73,6 +69,11 @@ body {
 
 .icon-menu .a-menu:hover{
   background-color: #3d3d3d;
+}
+
+.icon-menu .a-menu:hover img{
+  filter: invert(77%) sepia(65%) saturate(5691%) hue-rotate(357deg)
+  brightness(98%) contrast(106%);
 }
 
 .icon-menu a:hover{

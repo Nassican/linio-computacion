@@ -202,4 +202,33 @@ body {
   justify-content: right;
 }
 
+.navbar-secciones{
+  border-top: thick solid #666;
+  border-top-width: 0.09rem;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  padding: 0.1rem;
+  background-color: #3d3d3d;
+}
+
+.contain-secciones{
+  max-width: 73.75rem;
+  display: flex;
+  width: 100%;
+  padding: 0.2rem;
+  margin-left: 3cm;
+}
+
+.contain-secciones a{
+  text-decoration: none;
+  margin-left: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(209, 209, 209);
+}
+
+.contain-secciones a:hover{
+  color: #7d7574;
+}
 

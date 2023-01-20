@@ -17,7 +17,6 @@ body {
   max-width: 73.75rem;
   width: 100%;
   align-items: center;
-  z-index: 10px;
 }
 
 .navbar-menu {
@@ -202,3 +201,5 @@ body {
   display: flex;
   justify-content: right;
 }
+
+
